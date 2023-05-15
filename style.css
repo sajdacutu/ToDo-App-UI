@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title-container {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 94px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #7b7b7b29;
+  opacity: 1;
+}
+
+.title {
+  width: 250px;
+  height: 200px;
+  padding: 20px 0 0 60px;
+  margin-left: 360.5px;
+  vertical-align: middle;
+  text-align: left;
+  font: normal normal bold 40px/49px Inter;
+  letter-spacing: 0px;
+  color: #424242;
+  white-space: nowrap;
+}
+
+.title-extends {
+  top: 0px;
+  left: 115px;
+  width: 81px;
+  height: 49px;
+  text-align: left;
+  font: normal normal bold 40px/49px Inter;
+  letter-spacing: 0px;
+  color: #00a5ec;
+}
+
+.container {
+  display: grid;
+  top: 220px;
+  width: 1056px;
+  height: auto;
+  margin: 150px auto 0px auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.items {
+  height: 360px;
+  width: 352px;
+  background: #ffffff 0% 0% no-repeat;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.task-title {
+  position: relative;
+  margin: 34px 0px 0px 30px;
+  text-align: left;
+  font: normal normal bold 20px/24px Inter;
+  letter-spacing: 0px;
+  color: #00a5ec;
+  opacity: 1;
+}
+
+.margin-below {
+  margin-top: 30px;
+  border: 1px solid #ededed;
+}
+
+.task-container {
+  margin-top: 36px;
+}
+
+.task {
+  margin: 0px 10px 0 36px;
+  width: 17.51px;
+  height: 17.51px;
+  position: relative;
+  vertical-align: middle;
+  accent-color: #c2c2c2;
+}
+
+.task-label {
+  width: 103px;
+  cursor: pointer;
+  text-align: left;
+  font: normal normal normal 18px Inter;
+  letter-spacing: 0px;
+  color: #c2c2c2;
+  opacity: 1;
+  text-decoration: line-through 2px;
+}
+
+.task-rem {
+  margin: 0px 10px 0 36px;
+  width: 17.51px;
+  height: 17.51px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.task-label-rem {
+  width: 103px;
+  cursor: pointer;
+  text-align: left;
+  font: normal normal normal 18px Inter;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.action {
+  position: absolute;
+  white-space: nowrap;
+  margin-top: 50px;
+  right: 400.5px;
+}
+
+.task-add {
+  width: 50px;
+  height: 50px;
+  background: #00a5ec 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  border-radius: 50%;
+  font-size: 38px;
+  color: #ffffff;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.task-add-text {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #424242;
+  opacity: 1;
+}
